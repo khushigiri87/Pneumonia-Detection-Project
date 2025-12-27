@@ -53,10 +53,10 @@ and assist in early diagnosis.
 ![Training Accuracy](accuracy_plot.png)
 
 ### Training Loss
-![Training Loss](results/loss_plot.png)
+![Training Loss](loss_plot.png)
 
 ### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ## Results
 - Training Accuracy: ~93–95%
