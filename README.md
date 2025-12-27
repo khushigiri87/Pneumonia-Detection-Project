@@ -50,7 +50,7 @@ and assist in early diagnosis.
 6. Use prediction code to test new X-ray images
 
 ### Training Accuracy
-![Training Accuracy](results/accuracy_plot.png)
+![Training Accuracy](accuracy_plot.png)
 
 ### Training Loss
 ![Training Loss](results/loss_plot.png)
