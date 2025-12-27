@@ -49,6 +49,15 @@ and assist in early diagnosis.
 5. Results and graphs are saved in the `results` folder
 6. Use prediction code to test new X-ray images
 
+### Training Accuracy
+![Training Accuracy](results/accuracy_plot.png)
+
+### Training Loss
+![Training Loss](results/loss_plot.png)
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
 ## Results
 - Training Accuracy: ~93–95%
 - Validation Accuracy varies due to small validation set
