@@ -1,38 +1,58 @@
-# Pneumonia Detection Using Convolutional Neural Network (CNN)
+# 🩺 Pneumonia Detection Using Convolutional Neural Network (CNN)
 
-## Project Overview
-This project focuses on detecting Pneumonia from Chest X-ray images using a deep learning
-model based on Convolutional Neural Networks (CNN). The model classifies X-ray images into
-two categories: Pneumonia and Normal.
+## 📌 Project Overview
+This project focuses on detecting **Pneumonia** from chest X-ray images using a deep learning model based on **Convolutional Neural Networks (CNN)**.  
+The model classifies X-ray images into two categories:
+- **Pneumonia**
+- **Normal**
 
-## Objective
-To build an automated system that can accurately detect Pneumonia from chest X-ray images
-and assist in early diagnosis.
+This automated system can assist medical professionals in early and accurate diagnosis.
 
-## Dataset
-- Chest X-Ray Images (Pneumonia & Normal)
-- Source: Kaggle
-- Dataset is divided into:
-  - Train
+---
+
+## 🎯 Objective
+To build an automated and reliable deep learning system that accurately detects Pneumonia from chest X-ray images and supports early medical diagnosis.
+
+---
+
+## 📂 Dataset
+- **Chest X-ray Images (Pneumonia & Normal)**
+- **Source:** Kaggle
+- Dataset split:
+  - Training
   - Validation
-  - Test
+  - Testing
 
-## Model Architecture
+---
+
+## 🧠 Model Architecture
 - Convolutional Neural Network (CNN)
 - Conv2D and MaxPooling layers
 - Fully connected Dense layers
-- Sigmoid activation for binary classification
+- Sigmoid activation function for binary classification
 
-## Features
+---
+
+## 📄 Project Documents
+- **Model Details:** `Project model.pdf`
+- **Case Study:** `Case Study.pdf`
+- **Book Chapter:** `Pneumonia Detection Using Convolutional Neural Networks on Chest X.pdf`
+
+---
+
+## ✨ Features
 - Image preprocessing and normalization
 - Data augmentation
 - Model training and fine-tuning
-- Test set evaluation
-- Confusion Matrix and Accuracy/Loss graphs
-- New image upload and Pneumonia detection
-- Incremental retraining demonstration
+- Evaluation on test dataset
+- Accuracy and Loss visualization
+- Confusion Matrix
+- Prediction on newly uploaded X-ray images
+- Incremental retraining (demonstration purpose)
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 - Python
 - TensorFlow
 - Keras
@@ -41,42 +61,50 @@ and assist in early diagnosis.
 - Scikit-learn
 - Google Colab
 
-## How to Run the Project
-1. Open the notebook in Google Colab
-2. Ensure dataset is placed in the `dataset` folder
+---
+
+## ▶️ How to Run the Project
+1. Open the notebook in **Google Colab**
+2. Upload the dataset into the `dataset` folder
 3. Run all cells to train the model
-4. Trained models are saved in the `model` folder
-5. Results and graphs are saved in the `results` folder
-6. Use prediction code to test new X-ray images
+4. Trained models will be saved in the `model` folder
+5. Results and graphs will be saved in the `results` folder
+6. Use the prediction code to test new chest X-ray images
 
-## Training Accuracy
-![Training Accuracy](accuracy_plot.png)
+---
 
-## Training Loss
-![Training Loss](loss_plot.png)
+## 📊 Results
+- **Training Accuracy:** ~93% – 95%
+- **Validation Accuracy:** Varies due to small validation dataset
+- Performs well on clear Pneumonia cases
 
-## Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+---
 
-## Results
-- Training Accuracy: ~93–95%
-- Validation Accuracy varies due to small validation set
-- Model performs well on clear Pneumonia cases
+## 📉 Evaluation Metrics
+- Accuracy vs Loss graphs
+- Confusion Matrix
+- Model performance on unseen test data
 
-## Limitations
-- Performance may reduce on early-stage Pneumonia
-- Low-quality or blurred X-ray images
-- Pediatric chest X-rays
-- Retraining with a single image is for demonstration only
+---
 
-## Future Scope
-- Training on larger and more balanced datasets
-- Integration with a web-based or mobile application
-- Multi-disease classification (COVID-19, TB)
-- Explainable AI techniques (Grad-CAM)
+## ⚠️ Limitations
+- Reduced accuracy on early-stage Pneumonia
+- Sensitive to low-quality or blurred X-ray images
+- Limited performance on pediatric chest X-rays
+- Incremental retraining with a single image is for demonstration only
 
-## Author
-Khushi Giri
-3rd year 5th semester  
-B.Tech Computer Science & Engineering  
+---
+
+## 🚀 Future Scope
+- Training with larger and balanced datasets
+- Deployment as a web or mobile application
+- Multi-disease classification (COVID-19, TB, etc.)
+- Explainable AI using Grad-CAM
+
+---
+
+## 👩‍💻 Author
+**Khushi Giri**  
+3rd Year, 5th Semester  
+B.Tech – Computer Science & Engineering  
 Galgotias University
