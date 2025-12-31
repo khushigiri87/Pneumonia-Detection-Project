@@ -121,6 +121,14 @@ All detailed documents are available in the `docs/` folder:
 
 ---
 
+## 👩‍💻 Author
+**Khushi Giri**  
+3rd Year, 5th Semester  
+B.Tech – Computer Science & Engineering  
+Galgotias University
+
+---
+
 ## 📂 Project Structure
 ```text
 pneumonia-detection-cnn/
@@ -146,11 +154,5 @@ pneumonia-detection-cnn/
 │
 └── README.md
 
----
+'''
 
-##
- 👩‍💻 Author
-**Khushi Giri**  
-3rd Year, 5th Semester  
-B.Tech – Computer Science & Engineering  
-Galgotias University
