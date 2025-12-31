@@ -88,13 +88,13 @@ All detailed documents are available in the `docs/` folder:
 ## 📊 Training & Evaluation Results
 
 ### 🔹 Training Accuracy
-![Training Accuracy](results/accuracy_plot.png)
+![Training Accuracy](accuracy_plot.png)
 
 ### 🔹 Training Loss
-![Training Loss](results/loss_plot.png)
+![Training Loss](loss_plot.png)
 
 ### 🔹 Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
